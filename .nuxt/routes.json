@@ -1,0 +1,30 @@
+[
+  {
+    "name": "candidate",
+    "path": "/candidate",
+    "component": "/home/chetan/Documents/Projects/Election_system_frontend/pages/candidate.vue",
+    "chunkName": "pages/candidate",
+    "_name": "_268ff5c4"
+  },
+  {
+    "name": "start_election",
+    "path": "/start_election",
+    "component": "/home/chetan/Documents/Projects/Election_system_frontend/pages/start_election.vue",
+    "chunkName": "pages/start_election",
+    "_name": "_8b565d36"
+  },
+  {
+    "name": "voters",
+    "path": "/voters",
+    "component": "/home/chetan/Documents/Projects/Election_system_frontend/pages/voters.vue",
+    "chunkName": "pages/voters",
+    "_name": "_7e1c053a"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/chetan/Documents/Projects/Election_system_frontend/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_51e573da"
+  }
+]
