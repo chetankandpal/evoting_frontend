@@ -1,14 +1,14 @@
 export const state =() =>({
 
-    election_name:"",
+    electionname:"",
     stime:"",
     etime:"",
-    voters_count:0
+    voterscount:0
 })
 
 export const mutations ={
     storeElection_Name:(state,data) =>{
-        state.election_name=data
+        state.electionname=data
         console.log(data);
     },
     storeStart_Time:(state,data) =>{
@@ -20,7 +20,7 @@ export const mutations ={
         console.log(data);
     },
     storeVoters_Count:(state,data) =>{
-        state.voters_count=data
+        state.voterscount=data
         console.log(data);
     },
     

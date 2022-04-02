@@ -18,15 +18,16 @@
       return {
         headers: [
 
-          { text: 'Election Name', value: 'election_name' },
+          { text: 'Election Name', value: 'electionname' },
           { text: 'Start Time', value: 'stime' },
           { text: 'End Time', value: 'etime' },
-          { text: 'Voters Count', value: 'voters_count' },
+          { text: 'Voters Count', value: 'voterscount' },
         ],
       }
     },
     computed:{
         users(){
+           console.log(this.$store.state.users.data)
             return this.$store.state.users.data;
         }
     },
@@ -36,6 +37,8 @@
             "users/storeData",
             (await this.$axios.get("http://localhost:8083/election")).data
         )
+
+       
     }
   }
 </script>

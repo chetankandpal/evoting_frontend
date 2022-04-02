@@ -17,6 +17,7 @@ let store = {};
   // Enforce store modules
   store.modules = store.modules || {}
 
+  resolveStoreModules(require('../store/candidatedata.js'), 'candidatedata.js')
   resolveStoreModules(require('../store/user.js'), 'user.js')
   resolveStoreModules(require('../store/users.js'), 'users.js')
 
@@ -25,6 +26,7 @@ let store = {};
   if (process.client && module.hot) {
     // Whenever any Vuex module is updated...
     module.hot.accept([
+      '../store/candidatedata.js',
       '../store/user.js',
       '../store/users.js',
     ], () => {

@@ -3,21 +3,22 @@
       <br/>
       <h2>Add Election</h2>
       <br/>
-      <v-text-field v-model="election_name"  label="Election Name"></v-text-field>
+      <v-text-field v-model="electionname"  label="Election Name"></v-text-field>
       <v-text-field v-model="stime"  label="Start Time"></v-text-field>
       <v-text-field v-model="etime" label="End Time"></v-text-field>
-      <v-text-field v-model="voters_count" label="Voters Count"></v-text-field>
-     <v-btn @click="submit({election_name,stime,etime,voters_count})">Submit</v-btn>
+      <v-text-field v-model="voterscount" label="Voters Count"></v-text-field>
+     <v-btn @click="submit({electionname,stime,etime,voterscount})">Submit</v-btn>
   </v-form>
-</template>
+</template>          { text: 'End Time', value: 'etime' },
+          { text: 'Voters Count', value: 'voterscount' },
 
 <script>  
 export default {
     computed:{
-        election_name:{
+        electionname:{
             get(){
-                console.log(this.$store.state.user.election_name);
-                return this.$store.state.user.election_name;
+            
+               return this.$store.state.user.electionname;
             },
             set(value){
                 console.log(value)
@@ -26,8 +27,8 @@ export default {
         },
         stime:{
             get(){
-                console.log(this.$store.state.user.stime);
-                return this.$store.state.user.stime;
+               
+               return this.$store.state.user.stime;
             },
             set(value){
                 this.$store.commit("user/storeStart_Time",value)
@@ -42,9 +43,9 @@ export default {
             },
         },
 
-        voters_count:{
+        voterscount:{
             get(){
-                return this.$store.state.user.voters_count;
+                return this.$store.state.user.voterscount;
             },
             set(value){
                 this.$store.commit("user/storeVoters_Count",value)
