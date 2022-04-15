@@ -18,8 +18,10 @@ let store = {};
   store.modules = store.modules || {}
 
   resolveStoreModules(require('../store/candidatedata.js'), 'candidatedata.js')
+  resolveStoreModules(require('../store/electionstate.js'), 'electionstate.js')
   resolveStoreModules(require('../store/user.js'), 'user.js')
   resolveStoreModules(require('../store/users.js'), 'users.js')
+  resolveStoreModules(require('../store/voterdata.js'), 'voterdata.js')
 
   // If the environment supports hot reloading...
 
@@ -27,8 +29,10 @@ let store = {};
     // Whenever any Vuex module is updated...
     module.hot.accept([
       '../store/candidatedata.js',
+      '../store/electionstate.js',
       '../store/user.js',
       '../store/users.js',
+      '../store/voterdata.js',
     ], () => {
       // Update `root.modules` with the latest definitions.
       updateModules()
