@@ -13,7 +13,7 @@
            Voter 
           </v-btn>
           <v-btn to="/start_election" nuxt>
-           Start Election
+            Proceed to Election 
           </v-btn>
         </v-app-bar>
                   <v-container justify="center" align="center"></v-container>

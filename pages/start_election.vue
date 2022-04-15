@@ -43,10 +43,10 @@
         >
       </div>
     </div>
-    <div v-cloak v-else-if="!isLive && !ended">
+    <div  v-else-if="!isLive && !ended">
       <h2>Election starts in:</h2>
 
-      <section v-cloak>
+      <section >
         <section class="timer">
           <div>
             <section>
@@ -88,6 +88,8 @@
 	 
 	<script>
 export default {
+
+layout: 'start_election_layout',
   name: "CountDownTimer",
   created() {
     this.startTimer();

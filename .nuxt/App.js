@@ -9,8 +9,9 @@ import NuxtBuildIndicator from './components/nuxt-build-indicator'
 import '../node_modules/vuetify/dist/vuetify.css'
 
 import _6f6c098b from '../layouts/default.vue'
+import _259a05fd from '../layouts/start_election_layout.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_start_election_layout": sanitizeComponent(_259a05fd) }
 
 export default {
   render (h, props) {
