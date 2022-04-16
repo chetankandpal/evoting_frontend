@@ -8,11 +8,12 @@ import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import '../node_modules/vuetify/dist/vuetify.css'
 
+import _4dd09d50 from '../layouts/Adminsignout.vue'
 import _3be18821 from '../layouts/Blocklayout.vue'
 import _6f6c098b from '../layouts/default.vue'
 import _259a05fd from '../layouts/start_election_layout.vue'
 
-const layouts = { "_Blocklayout": sanitizeComponent(_3be18821),"_default": sanitizeComponent(_6f6c098b),"_start_election_layout": sanitizeComponent(_259a05fd) }
+const layouts = { "_Adminsignout": sanitizeComponent(_4dd09d50),"_Blocklayout": sanitizeComponent(_3be18821),"_default": sanitizeComponent(_6f6c098b),"_start_election_layout": sanitizeComponent(_259a05fd) }
 
 export default {
   render (h, props) {

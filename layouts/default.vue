@@ -12,7 +12,7 @@
           <v-btn to="/voters" nuxt>
            Voter 
           </v-btn>
-          <v-btn to="/start_election" nuxt>
+          <v-btn @click="notify()"  nuxt>
             Proceed to Election 
           </v-btn>
         </v-app-bar>
@@ -31,7 +31,8 @@ export default {
 
  methods:{
    async notify(){
-     await this/$axios.post("http://localhost:8083/notify/");
+    
+     window.location.href="http://localhost:3000/Notified"
    }
  }
 };

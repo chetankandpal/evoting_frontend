@@ -14,6 +14,13 @@
     "_name": "_268ff5c4"
   },
   {
+    "name": "Notified",
+    "path": "/Notified",
+    "component": "/home/chetan/Documents/Projects/Election_system_frontend/pages/Notified.vue",
+    "chunkName": "pages/Notified",
+    "_name": "_1c9ff7f2"
+  },
+  {
     "name": "start_election",
     "path": "/start_election",
     "component": "/home/chetan/Documents/Projects/Election_system_frontend/pages/start_election.vue",

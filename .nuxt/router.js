@@ -6,6 +6,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _a7a1932c = () => interopDefault(import('../pages/Blockerpage.vue' /* webpackChunkName: "pages/Blockerpage" */))
 const _268ff5c4 = () => interopDefault(import('../pages/candidate.vue' /* webpackChunkName: "pages/candidate" */))
+const _1c9ff7f2 = () => interopDefault(import('../pages/Notified.vue' /* webpackChunkName: "pages/Notified" */))
 const _8b565d36 = () => interopDefault(import('../pages/start_election.vue' /* webpackChunkName: "pages/start_election" */))
 const _7e1c053a = () => interopDefault(import('../pages/voters.vue' /* webpackChunkName: "pages/voters" */))
 const _51e573da = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -29,6 +30,10 @@ export const routerOptions = {
     path: "/candidate",
     component: _268ff5c4,
     name: "candidate"
+  }, {
+    path: "/Notified",
+    component: _1c9ff7f2,
+    name: "Notified"
   }, {
     path: "/start_election",
     component: _8b565d36,
