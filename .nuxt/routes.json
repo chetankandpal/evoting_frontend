@@ -1,5 +1,12 @@
 [
   {
+    "name": "Blockerpage",
+    "path": "/Blockerpage",
+    "component": "/home/chetan/Documents/Projects/Election_system_frontend/pages/Blockerpage.vue",
+    "chunkName": "pages/Blockerpage",
+    "_name": "_a7a1932c"
+  },
+  {
     "name": "candidate",
     "path": "/candidate",
     "component": "/home/chetan/Documents/Projects/Election_system_frontend/pages/candidate.vue",

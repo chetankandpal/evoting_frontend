@@ -10,7 +10,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  middleware:'blocker'
+};
 </script>
 
 <style>

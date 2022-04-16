@@ -88,7 +88,7 @@
 	 
 	<script>
 export default {
-
+middleware:'blocker',
 layout: 'start_election_layout',
   name: "CountDownTimer",
   created() {

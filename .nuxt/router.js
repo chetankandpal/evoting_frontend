@@ -4,6 +4,7 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _a7a1932c = () => interopDefault(import('../pages/Blockerpage.vue' /* webpackChunkName: "pages/Blockerpage" */))
 const _268ff5c4 = () => interopDefault(import('../pages/candidate.vue' /* webpackChunkName: "pages/candidate" */))
 const _8b565d36 = () => interopDefault(import('../pages/start_election.vue' /* webpackChunkName: "pages/start_election" */))
 const _7e1c053a = () => interopDefault(import('../pages/voters.vue' /* webpackChunkName: "pages/voters" */))
@@ -21,6 +22,10 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/Blockerpage",
+    component: _a7a1932c,
+    name: "Blockerpage"
+  }, {
     path: "/candidate",
     component: _268ff5c4,
     name: "candidate"
