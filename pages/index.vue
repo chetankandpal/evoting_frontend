@@ -11,7 +11,10 @@
 
 <script>
 export default {
-  middleware:'blocker'
+
+ middleware:'blocker'
+
+   
 };
 </script>
 

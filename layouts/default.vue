@@ -28,6 +28,12 @@
 <script>
 export default {
 
+
+ methods:{
+   async notify(){
+     await this/$axios.post("http://localhost:8083/notify/");
+   }
+ }
 };
 </script>
 
