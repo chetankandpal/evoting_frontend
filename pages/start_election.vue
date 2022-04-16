@@ -202,6 +202,9 @@ layout: 'start_election_layout',
       var url = "http://localhost:8083/addVote/" + result;
       console.log(url);
       await this.$axios.post(url);
+      //await this.$axios.post("http://localhost:8083/voted");
+
+      
     },
   },
 
