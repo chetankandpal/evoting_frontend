@@ -1,6 +1,6 @@
 export const state =() =>({
 
-    isadmin:true,
+    isadmin:false,
 })
 
 export const mutations ={
