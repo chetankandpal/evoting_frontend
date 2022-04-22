@@ -1,0 +1,9 @@
+---
+- name: Pull Docker Image
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Pull Frontend from Docker Hub
+      docker_image:
+        name: docker123chetan/frontendimage:v1
+        source: pull
