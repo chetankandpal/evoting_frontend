@@ -1,8 +1,6 @@
----
 - name: Pull Docker Image
-  hosts: localhost
+  hosts: ubuntu18
+  remote_user: ck
   tasks:
     - name: Pull Frontend from Docker Hub
       docker_image:
-        name: docker123chetan/frontendimage:v1
-        source: pull
