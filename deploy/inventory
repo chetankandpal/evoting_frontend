@@ -1,3 +1,2 @@
+localhost ansible_user=ck ansible_python_interpreter=/usr/bin/python3
 
-[ubuntu18]
-172.16.131.201 ansible_user=ck
