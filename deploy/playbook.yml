@@ -5,5 +5,5 @@
   tasks:
     - name: Pull Frontend from Docker Hub
       docker_image:
-        name: docker123chetan/frontendimage:v1
+        name: docker123chetan/frontendimage
         source: pull
