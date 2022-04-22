@@ -1,6 +1,9 @@
 ---
 - name: Pull Docker Image
-  hosts: all
+  hosts: ubuntu18
+  remote_user: ck
+  become: yes
+  become_method: sudo
   tasks:
     - name: Pull Frontend from Docker Hub
       docker_image:
