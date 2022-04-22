@@ -1,7 +1,6 @@
 ---
 - name: Pull Docker Image
-  hosts: ubuntu18
-  remote_user: ck
+  hosts: localhost
   tasks:
     - name: Pull Frontend from Docker Hub
       docker_image:
