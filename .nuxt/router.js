@@ -8,6 +8,7 @@ const _a7a1932c = () => interopDefault(import('../pages/Blockerpage.vue' /* webp
 const _268ff5c4 = () => interopDefault(import('../pages/candidate.vue' /* webpackChunkName: "pages/candidate" */))
 const _1c9ff7f2 = () => interopDefault(import('../pages/Notified.vue' /* webpackChunkName: "pages/Notified" */))
 const _8b565d36 = () => interopDefault(import('../pages/start_election.vue' /* webpackChunkName: "pages/start_election" */))
+const _5b3831db = () => interopDefault(import('../pages/Votedone.vue' /* webpackChunkName: "pages/Votedone" */))
 const _7e1c053a = () => interopDefault(import('../pages/voters.vue' /* webpackChunkName: "pages/voters" */))
 const _51e573da = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -38,6 +39,10 @@ export const routerOptions = {
     path: "/start_election",
     component: _8b565d36,
     name: "start_election"
+  }, {
+    path: "/Votedone",
+    component: _5b3831db,
+    name: "Votedone"
   }, {
     path: "/voters",
     component: _7e1c053a,

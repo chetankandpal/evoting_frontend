@@ -28,6 +28,13 @@
     "_name": "_8b565d36"
   },
   {
+    "name": "Votedone",
+    "path": "/Votedone",
+    "component": "/home/chetan/Documents/Projects/Election_system_frontend/pages/Votedone.vue",
+    "chunkName": "pages/Votedone",
+    "_name": "_5b3831db"
+  },
+  {
     "name": "voters",
     "path": "/voters",
     "component": "/home/chetan/Documents/Projects/Election_system_frontend/pages/voters.vue",
