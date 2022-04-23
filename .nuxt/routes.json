@@ -2,50 +2,50 @@
   {
     "name": "Blockerpage",
     "path": "/Blockerpage",
-    "component": "/home/chetan/Documents/Projects/Election_system_frontend/pages/Blockerpage.vue",
+    "component": "/home/chetan/Documents/Projects/evoting_frontend/pages/Blockerpage.vue",
     "chunkName": "pages/Blockerpage",
-    "_name": "_a7a1932c"
+    "_name": "_574a69b3"
   },
   {
     "name": "candidate",
     "path": "/candidate",
-    "component": "/home/chetan/Documents/Projects/Election_system_frontend/pages/candidate.vue",
+    "component": "/home/chetan/Documents/Projects/evoting_frontend/pages/candidate.vue",
     "chunkName": "pages/candidate",
-    "_name": "_268ff5c4"
+    "_name": "_7841674d"
   },
   {
     "name": "Notified",
     "path": "/Notified",
-    "component": "/home/chetan/Documents/Projects/Election_system_frontend/pages/Notified.vue",
+    "component": "/home/chetan/Documents/Projects/evoting_frontend/pages/Notified.vue",
     "chunkName": "pages/Notified",
-    "_name": "_1c9ff7f2"
+    "_name": "_fe948544"
   },
   {
     "name": "start_election",
     "path": "/start_election",
-    "component": "/home/chetan/Documents/Projects/Election_system_frontend/pages/start_election.vue",
+    "component": "/home/chetan/Documents/Projects/evoting_frontend/pages/start_election.vue",
     "chunkName": "pages/start_election",
-    "_name": "_8b565d36"
+    "_name": "_e6ac2508"
   },
   {
     "name": "Votedone",
     "path": "/Votedone",
-    "component": "/home/chetan/Documents/Projects/Election_system_frontend/pages/Votedone.vue",
+    "component": "/home/chetan/Documents/Projects/evoting_frontend/pages/Votedone.vue",
     "chunkName": "pages/Votedone",
-    "_name": "_5b3831db"
+    "_name": "_2b84299c"
   },
   {
     "name": "voters",
     "path": "/voters",
-    "component": "/home/chetan/Documents/Projects/Election_system_frontend/pages/voters.vue",
+    "component": "/home/chetan/Documents/Projects/evoting_frontend/pages/voters.vue",
     "chunkName": "pages/voters",
-    "_name": "_7e1c053a"
+    "_name": "_75c3af5e"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/home/chetan/Documents/Projects/Election_system_frontend/pages/index.vue",
+    "component": "/home/chetan/Documents/Projects/evoting_frontend/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_51e573da"
+    "_name": "_763ee41c"
   }
 ]

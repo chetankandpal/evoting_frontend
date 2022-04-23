@@ -4,13 +4,13 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _a7a1932c = () => interopDefault(import('../pages/Blockerpage.vue' /* webpackChunkName: "pages/Blockerpage" */))
-const _268ff5c4 = () => interopDefault(import('../pages/candidate.vue' /* webpackChunkName: "pages/candidate" */))
-const _1c9ff7f2 = () => interopDefault(import('../pages/Notified.vue' /* webpackChunkName: "pages/Notified" */))
-const _8b565d36 = () => interopDefault(import('../pages/start_election.vue' /* webpackChunkName: "pages/start_election" */))
-const _5b3831db = () => interopDefault(import('../pages/Votedone.vue' /* webpackChunkName: "pages/Votedone" */))
-const _7e1c053a = () => interopDefault(import('../pages/voters.vue' /* webpackChunkName: "pages/voters" */))
-const _51e573da = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _574a69b3 = () => interopDefault(import('../pages/Blockerpage.vue' /* webpackChunkName: "pages/Blockerpage" */))
+const _7841674d = () => interopDefault(import('../pages/candidate.vue' /* webpackChunkName: "pages/candidate" */))
+const _fe948544 = () => interopDefault(import('../pages/Notified.vue' /* webpackChunkName: "pages/Notified" */))
+const _e6ac2508 = () => interopDefault(import('../pages/start_election.vue' /* webpackChunkName: "pages/start_election" */))
+const _2b84299c = () => interopDefault(import('../pages/Votedone.vue' /* webpackChunkName: "pages/Votedone" */))
+const _75c3af5e = () => interopDefault(import('../pages/voters.vue' /* webpackChunkName: "pages/voters" */))
+const _763ee41c = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -25,31 +25,31 @@ export const routerOptions = {
 
   routes: [{
     path: "/Blockerpage",
-    component: _a7a1932c,
+    component: _574a69b3,
     name: "Blockerpage"
   }, {
     path: "/candidate",
-    component: _268ff5c4,
+    component: _7841674d,
     name: "candidate"
   }, {
     path: "/Notified",
-    component: _1c9ff7f2,
+    component: _fe948544,
     name: "Notified"
   }, {
     path: "/start_election",
-    component: _8b565d36,
+    component: _e6ac2508,
     name: "start_election"
   }, {
     path: "/Votedone",
-    component: _5b3831db,
+    component: _2b84299c,
     name: "Votedone"
   }, {
     path: "/voters",
-    component: _7e1c053a,
+    component: _75c3af5e,
     name: "voters"
   }, {
     path: "/",
-    component: _51e573da,
+    component: _763ee41c,
     name: "index"
   }],
 
