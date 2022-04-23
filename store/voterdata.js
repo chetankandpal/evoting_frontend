@@ -1,6 +1,6 @@
 export const state =() =>({
 
-    vId:"",
+    voterid:"",
     name:"",
     address:"",
     email:""
@@ -8,7 +8,7 @@ export const state =() =>({
 
 export const mutations ={
     storeId:(state,data) =>{
-        state.vId=data
+        state.voterid=data
         console.log(data);
     },
     storeName:(state,data) =>{

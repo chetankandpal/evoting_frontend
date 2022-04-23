@@ -3,9 +3,11 @@
       <v-main>
         <v-app-bar elevation="3">
           <v-spacer />
-          <v-toolbar-title><h2>YOUR VOTE HAS BEEN CASTED </h2></v-toolbar-title>
+          <v-toolbar-title><h2>ELECTION PORTAL </h2></v-toolbar-title>
           <v-spacer />
         </v-app-bar>
+    <center><v-toolbar-title><h2>Your vote has been casted successfully</h2></v-toolbar-title></center>
+
         <br />
         <br />
        <center> <v-btn @click ="signout()">Sign Out</v-btn></center>

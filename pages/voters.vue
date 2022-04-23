@@ -3,11 +3,11 @@
     <br />
     <h2>Add Voter</h2>
     <br />
-    <v-text-field v-model="vId" label="Voter Id"></v-text-field>
+    <v-text-field v-model="voterid" label="Voter Id"></v-text-field>
     <v-text-field v-model="name" label="Name"></v-text-field>
     <v-text-field v-model="address" label="Address"></v-text-field>
     <v-text-field v-model="email" label="Email"></v-text-field>
-    <v-btn @click="submit({ vId, name, address, email })">Submit</v-btn>
+    <v-btn @click="submit({ voterid, name, address, email })">Submit</v-btn>
     <br />
     <br />
     <v-card>
@@ -26,7 +26,7 @@ export default {
   data() {
     return {
       headers: [
-        { text: "Voter Id", value: "vId" },
+        { text: "Voter Id", value: "voterid" },
         { text: "Name", value: "name" },
         { text: "Address", value: "address" },
         { text: "Email", value: "email" },
@@ -35,9 +35,9 @@ export default {
   },
 
   computed: {
-    vId: {
+    voterid: {
       get() {
-        return this.$store.state.voterdata.vId;
+        return this.$store.state.voterdata.voterid;
       },
       set(value) {
         console.log(value);
@@ -85,7 +85,7 @@ export default {
   
       await this.$axios.post("http://localhost:8083/voter/", voter);
 
-      await this.restForm({ vId: "", name: "" ,address: "",email: ""});
+      await this.restForm({ voterid: "", name: "" ,address: "",email: ""});
 
       this.$store.commit(
         "users/storeData",
@@ -93,7 +93,7 @@ export default {
       );
     },
     restForm(voterdata) {
-      this.$store.commit("voterdata/storeId", voterdata.vId);
+      this.$store.commit("voterdata/storeId", voterdata.voterid);
       this.$store.commit("voterdata/storeName", voterdata.name);
       this.$store.commit("voterdata/storeAddress", voterdata.address);
       this.$store.commit("voterdata/storeEmail", voterdata.email);
