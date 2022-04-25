@@ -184,6 +184,8 @@ layout: 'start_election_layout',
           this.isLive=false;
           this.ended=true;
           clearInterval(interval);
+          this.publish();
+
         } else {
           self.days = days;
           self.hours = hours;
@@ -206,6 +208,11 @@ layout: 'start_election_layout',
       this.$router.push('/VoteDone');
       
     },
+
+    async publish(){
+
+        await this.$axios.post("http://localhost:8083/publishresult");
+    }
   },
 
   async fetch() {
