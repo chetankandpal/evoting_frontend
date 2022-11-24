@@ -3,11 +3,11 @@
       <br/>
       <h2>Add Election</h2>
       <br/>
-      <v-text-field v-model="electionname"  label="Election Name"></v-text-field>
-      <v-text-field v-model="stime"  label="Start Time (Format :yyyy-mm-ddThh:mm:ss.SSSX)"></v-text-field>
-      <v-text-field v-model="etime" label="End Time (Format :yyyy-mm-ddThh:mm:ss.SSSX)"></v-text-field>
-      <v-text-field v-model="voterscount" label="Voters Count"></v-text-field>
-     <v-btn @click="submit({electionname,stime,etime,voterscount})">Submit</v-btn>
+      <v-text-field v-model="electionname"  id="electionname" label="Election Name"></v-text-field>
+      <v-text-field v-model="stime"  id="stime" label="Start Time (Format :yyyy-mm-ddThh:mm:ss.SSSX)"></v-text-field>
+      <v-text-field v-model="etime" id="etime" label="End Time (Format :yyyy-mm-ddThh:mm:ss.SSSX)"></v-text-field>
+      <v-text-field v-model="voterscount"  id="voterscount" label="Voters Count"></v-text-field>
+     <v-btn id="submitButton"  @click="submit({electionname,stime,etime,voterscount})">Submit</v-btn>
   </v-form>
 </template>          { text: 'End Time', value: 'etime' },
           { text: 'Voters Count', value: 'voterscount' },
