@@ -3,13 +3,13 @@
     <v-app>
       <v-main>
         <v-app-bar>
-         <v-btn to="/" nuxt>
+         <v-btn to="/" id="button" nuxt>
            Home
           </v-btn>
-          <v-btn to="/candidate" nuxt>
+          <v-btn to="/candidate" id="candidateButton"  nuxt>
            Candidate
           </v-btn>
-          <v-btn to="/voters" nuxt>
+          <v-btn to="/voters" id="votersButton" nuxt>
            Voter 
           </v-btn>
           <v-btn @click="notify()"  nuxt>
