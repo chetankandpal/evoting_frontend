@@ -29,14 +29,19 @@ export default {
   async fetch() {
 
     const resp=(await this.$axios.get("http://localhost:8083/election")).data
-    console.log(resp);
+   // Changes for displaying dates for all elections
 
-    var d=new Date(resp[0].stime).toUTCString();
+    var count = Object.keys(resp).length;
+   
+    for(var i=0;i<count;i++){
+    var d=new Date(resp[i].stime).toUTCString();
+     console.log(resp[i].stime+" dd");
     d=d.split(' ').slice(0,5).join(' ');
-    resp[0].stime=d;
-    d=new Date(resp[0].etime).toUTCString();
+    resp[i].stime=d;
+    d=new Date(resp[i].etime).toUTCString();
     d=d.split(' ').slice(0,5).join(' ');
-    resp[0].etime=d;
+    resp[i].etime=d;
+    }
  
     this.$store.commit(
       "users/storeData",
